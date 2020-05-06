@@ -11,9 +11,10 @@ plugins {
 }
 
 intellij {
-    version '2018.3'
+    version '2019.3'
     pluginName 'NameThatColor'
     type 'AI'
+    intellij.updateSinceUntilBuild false
 }
 
 publishPlugin {
